@@ -1,0 +1,113 @@
+{
+    "products": [{
+        "name": "Мини бокс Classic",
+        "descr": "Роза голландская",
+        "numbers": "9-11 шт.",
+        "packing": "коробка",
+        "packingColor": "чёрный/белый",
+        "price": "3 900",
+        "images": [
+            "products/hat-box/square-small-black-box-pink-roses.jpg",
+            "products/hat-box/square-small-black-box-white-roses.jpg",
+            "products/hat-box/square-small-black-box-red-roses.jpg",
+            "products/hat-box/square-small-black-box-purple-roses.jpg"
+        ]
+    }, {
+        "name": "Средний бокс Classic",
+        "descr": "Роза голландская",
+        "numbers": "25 шт.",
+        "packing": "бокс/шляпная коробка",
+        "packingColor": "чёрный/белый",
+        "price": "6 500",
+        "images": [
+            "products/hat-box/square-medium-black-box-white-roses.jpg",
+            "products/hat-box/square-medium-black-box-pink-roses.jpg",
+            "products/hat-box/square-medium-black-box-purple-roses.jpg"
+        ]
+    }, {
+        "name": "Средний бокс Classic",
+        "descr": "Роза голландская",
+        "numbers": "25 шт.",
+        "packing": "бокс/шляпная коробка",
+        "packingColor": "чёрный/белый",
+        "price": "6 500",
+        "images": [
+            "products/hat-box/round-medium-black-box-white-roses.jpg",
+            "products/hat-box/round-medium-white-box-red-roses.jpg",
+            "products/hat-box/round-medium-white-box-pink-roses.jpg",
+            "products/hat-box/round-medium-white-box-purple-roses.jpg"
+        ]
+    }, {
+        "name": "Пионовидные розы в шляпной коробке",
+        "descr": "Роза кустовая-преимум",
+        "numbers": "25 шт.",
+        "packing": "крафт/лента",
+        "packingColor": "",
+        "price": "7 500",
+        "images": [
+            "products/hat-box/round-medium-black-box-whitebubles-roses.jpg",
+            "products/hat-box/round-medium-white-box-whitebubles-roses.jpg",
+            "products/hat-box/round-medium-black-box-bubles-roses.jpg",
+            "products/hat-box/round-medium-white-box-bubles-roses.jpg"
+        ]
+    }, {
+        "name": "Мини бокс Exotic",
+        "descr": "Роза голландская",
+        "numbers": "9-11 шт.",
+        "packing": "коробка",
+        "packingColor": "чёрный/белый",
+        "price": "6 900",
+        "images": [
+            "products/hat-box/square-small-black-box-black-roses.jpg",
+            "products/hat-box/square-small-black-box-blue-roses.jpg"
+        ]
+    }, {
+        "name": "Большой бокс Exotic",
+        "descr": "Роза голландская",
+        "numbers": "49-51 шт.",
+        "packing": "коробка",
+        "packingColor": "чёрный/белый",
+        "price": "18 500",
+        "images": [
+            "products/hat-box/square-big-black-box-rainbow-roses.jpg",
+            "products/hat-box/square-big-black-box-blue-roses.jpg",
+            "products/hat-box/square-big-black-box-black-roses.jpg"
+        ]
+    }],
+    "products_2": [{
+        "name": "Jadore Classic",
+        "descr": "Роза голландская",
+        "numbers": "51 шт.",
+        "packing": "коробка",
+        "packingColor": "чёрный/белый",
+        "price": "10 900",
+        "images": [
+            "photo/hat-box_2/32.jpg"
+        ]
+    }, {
+        "name": "Jadore summer mix",
+        "descr": "",
+        "numbers": "",
+        "packing": "коробка",
+        "packingColor": "чёрный/белый",
+        "price": "13 900",
+        "images": [
+            "photo/hat-box_2/24.jpg",
+            "photo/hat-box_2/5.jpg",
+            "photo/hat-box_2/27.jpg"
+        ]
+    }, {
+        "name": "Jadore Love mix",
+        "descr": "",
+        "numbers": "",
+        "packing": "коробка",
+        "packingColor": "чёрный/белый",
+        "price": "13 900",
+        "images": [
+            "photo/hat-box_2/36.jpg",
+            "photo/hat-box_2/31.jpg",
+            "photo/hat-box_2/25.jpg",
+            "photo/hat-box_2/23.jpg"
+        ]
+    }]
+}

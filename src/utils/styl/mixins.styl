@@ -1,0 +1,36 @@
+clearfix()
+  &::before,
+  &::after
+    content ' '
+    display table
+  &::after
+    clear both
+
+square(size)
+  width size
+  height size
+
+absolute-centered()
+  position absolute
+  top 50%
+  left 50%
+  transform translate(-50%, -50%)
+
+absolute-vertical-centered()
+  position absolute
+  top 50%
+  left 0
+  transform translateY(-50%)
+
+placeholder(color)
+  &::-webkit-input-placeholder
+    color color
+    font-weight 300
+
+  &::-moz-placeholder
+    color color
+    font-weight 300
+
+  &:-ms-input-placeholder
+    color color
+    font-weight 300

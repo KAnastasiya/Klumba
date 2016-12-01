@@ -1,0 +1,42 @@
+@require '../../utils/styl/variables.styl'
+@require '../../utils/styl/mixins.styl'
+
+.personal-bouquet
+  clearfix()
+  border-radius 3px
+  background-color #fff
+  padding 24px 30px
+  margin 40px 0 0
+  box-shadow 0 2px 4px rgba(30, 30, 30, 0.35)
+
+  &:not(:last-child)
+    margin-bottom 50px
+
+  &__container
+    float left
+    max-width 65%
+    padding-left 85px
+    margin-right 40px
+    position relative
+
+    &::before
+      absolute-vertical-centered()
+      content ''
+      width 50px
+      height 90px
+      background url('img/personal-bouquet.png') no-repeat center
+      background-size contain
+
+  &__title
+    font-size 28px
+    font-weight 300
+    margin 0 0 5px 0
+
+  &__text
+    color #010101
+    font 300 16px font-family-add
+    margin 0
+
+  .btn_request-call
+    float right
+    margin 8px 0

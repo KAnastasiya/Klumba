@@ -1,0 +1,48 @@
+@require '../../utils/styl/variables.styl'
+@require '../../utils/styl/mixins.styl'
+
+.socials
+  font-size 0
+  float right
+  display inline-block
+  vertical-align middle
+  padding 36px 0
+
+  &__list
+    list-style none
+    padding 0
+    margin 0
+
+  &__item
+    display inline-block
+    vertical-align top
+
+    &:not(:last-of-type)
+      margin-right 10px
+
+  &__link
+    square(40px)
+    display inline-block
+    vertical-align top
+    position relative
+
+    &::before
+      absolute-centered()
+      square(40px)
+      content ''
+      border-radius 50%
+      background-repeat no-repeat
+      background-position center
+      background-size contain
+
+    &:hover::before
+      opacity 0.5
+
+  &__link_fb::before
+      background-image url('img/socials_fb.svg')
+
+  &__link_instagram::before
+      background-image url('img/socials_insta.svg')
+
+  &__link_vk::before
+      background-image url('img/socials_vk.svg')

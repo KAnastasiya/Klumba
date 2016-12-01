@@ -1,0 +1,3 @@
+export const MODAL_SHOW = 'MODAL_SHOW';
+export const MODAL_HIDE = 'MODAL_HIDE';
+export const SEND_MESSAGE_RESULT_SHOW = 'SEND_MESSAGE_RESULT_SHOW';

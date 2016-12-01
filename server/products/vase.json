@@ -1,0 +1,98 @@
+{
+    "products": [{
+        "name": "Белые розы в вазе",
+        "descr": "Роза голландская",
+        "numbers": "25 шт.",
+        "packing": "ваза",
+        "packingColor": "",
+        "price": "4 500",
+        "images": [
+            "products/vase/white-rose-vase.jpg"
+        ]
+    }, {
+        "name": "Красные розы в вазе",
+        "descr": "Роза голландская",
+        "numbers": "25 шт.",
+        "packing": "ваза",
+        "packingColor": "",
+        "price": "4 500",
+        "images": [
+            "products/vase/red-rose-vase.jpg"
+        ]
+    }, {
+        "name": "Розовые розы в вазе",
+        "descr": "Роза голландская",
+        "numbers": "25 шт.",
+        "packing": "ваза",
+        "packingColor": "",
+        "price": "4 500",
+        "images": [
+            "products/vase/pink-rose-vase.jpg"
+        ]
+    }, {
+        "name": "Фиолетовые розы в вазе",
+        "descr": "Роза голландская",
+        "numbers": "25 шт.",
+        "packing": "ваза",
+        "packingColor": "",
+        "price": "4 500",
+        "images": [
+            "products/vase/purple-rose-vase.jpg"
+        ]
+    }, {
+        "name": "Жёлтые розы в вазе",
+        "descr": "Роза голландская",
+        "numbers": "25 шт.",
+        "packing": "ваза",
+        "packingColor": "",
+        "price": "4 500",
+        "images": [
+            "products/vase/yellow-rose-vase.jpg"
+        ]
+    }, {
+        "name": "Гортензии в вазе Classic",
+        "descr": "Гортензия",
+        "numbers": "5 шт.",
+        "packing": "ваза",
+        "packingColor": "",
+        "price": "4 500",
+        "images": [
+            "products/vase/red-gort-vase.jpg",
+            "products/vase/blue-gort-vase.jpg",
+            "products/vase/purple-gort-vase.jpg"
+        ]
+    }, {
+        "name": "Синие розы в вазе",
+        "descr": "Роза голландская",
+        "numbers": "25 шт.",
+        "packing": "ваза",
+        "packingColor": "",
+        "price": "9 900",
+        "images": [
+            "products/vase/blue-rose-vase.jpg"
+        ]
+    }, {
+        "name": "Пионовидные кустовые розы в вазе",
+        "descr": "Роза кустовая-преимум",
+        "numbers": "25 шт.",
+        "packing": "ваза",
+        "packingColor": "",
+        "price": "7 500",
+        "images": [
+            "products/vase/white-bubles-minirose-vase.jpg",
+            "products/vase/bubles-minirose-vase.jpg",
+            "products/vase/yellow-minirose-vase.jpg",
+            "products/vase/minirose-mix-vase.jpg"
+        ]
+    }, {
+        "name": "Каллы в вазе",
+        "descr": "Каллы",
+        "numbers": "25 шт.",
+        "packing": "ваза",
+        "packingColor": "",
+        "price": "9 500",
+        "images": [
+            "products/vase/white-callas-vase.jpg"
+        ]
+    }]
+}

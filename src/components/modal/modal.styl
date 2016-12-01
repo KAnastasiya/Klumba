@@ -1,0 +1,49 @@
+@require '../../utils/styl/variables.styl'
+@require '../../utils/styl/mixins.styl'
+
+.modal
+  display block
+  overflow-y auto
+  background-color rgba(0, 0, 0, 0.7)
+
+  position fixed
+  top 0
+  right 0
+  bottom 0
+  left 0
+  z-index 5
+
+  &__dialog
+    width 470px
+    padding 40px 45px
+    margin 40px auto
+    position relative
+    background-color #fff
+    border-radius 4px
+
+  &__header
+    margin 0 0 15px 0
+
+  &__title
+    font-size 28px
+    font-weight 400
+    margin: 0 0 25px;
+
+  .icon_close
+    position absolute
+    top 25px
+    right 25px
+
+    &::before
+      square(15px)
+      content ''
+      background-repeat no-repeat
+      background-position center
+      background-image url('img/modal_close.svg')
+
+      position absolute
+      top 0
+      left 0
+
+    &:hover::before
+      opacity: 0.5

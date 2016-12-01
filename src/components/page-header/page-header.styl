@@ -1,0 +1,51 @@
+@require '../../utils/styl/variables.styl'
+@require '../../utils/styl/mixins.styl'
+
+.page-header
+  background-color color-main
+
+  .content-wrapper
+    clearfix()
+
+  &__logo
+    float left
+    line-height 1
+    text-align center
+    margin 10px 50px 10px 0
+
+  .working-mode,
+  .header-contacts
+    margin 36px 0
+
+  .working-mode
+    min-width 250px
+    float left
+
+    &__text
+      max-width 250px
+      margin 0
+
+      &:not(:last-of-type)
+        margin-bottom 8px
+
+  .header-contacts
+    float right
+    min-width 200px
+    text-align right
+    padding-left 25px
+
+    &__phone
+      font-size 16px
+      text-align right
+      margin 0 0 4px 0
+      color font-color-dark
+      text-decoration none
+      display block
+
+  .link_request-call
+    text-decoration: none;
+    border-bottom 1px dashed font-color-dark
+    cursor pointer
+
+    &:hover
+      border-bottom-style solid

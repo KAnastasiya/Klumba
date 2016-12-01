@@ -1,0 +1,60 @@
+@require '../../utils/styl/variables.styl'
+@require '../../utils/styl/mixins.styl'
+
+.page-navigation
+  background-color color-akcent
+
+  &__list
+    font-size 0
+    text-align center
+    list-style none
+    margin 0
+    padding 0
+
+  &__item
+    display inline-block
+    vertical-align top
+    width 21%
+    border-right 1px solid color-main
+    padding 0 20px
+
+    &:first-of-type
+      border-left 1px solid color-main
+
+  &__link
+    color font-color-akcent
+    font 300 14px font-family-add
+    display inline-block
+    padding 15px 0 15px 40px
+    position relative
+
+    &:not(:last-of-type)
+      padding-right 45px
+
+    &.page-navigation__link_active
+      font-weight bold
+      text-decoration none
+      cursor default
+
+    &::before
+      absolute-vertical-centered()
+      square(30px);
+      content ''
+      background-repeat no-repeat
+      background-position right center
+      background-size contain
+
+    &:hover
+      text-decoration none
+
+  &__item_hat-box a::before
+     background-image url('img/nav_hat-box.svg')
+
+  &__item_classic a::before
+     background-image url('img/nav_classic.svg')
+
+  &__item_vase a::before
+     background-image url('img/nav_vase.svg')
+
+  &__item_million-roses a::before
+     background-image url('img/nav_million-roses.svg')
