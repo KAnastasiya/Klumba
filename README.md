@@ -26,3 +26,7 @@ Online flower shop, based on React + Redux + React Router.
 ### Utils
 
 - `npm run lint` - linting JavaScript with [ESLint](http://eslint.org/).
+
+### Demo
+
+If you want see, how site look like, click [this link] (https://kanastasiya.github.io/Klumba/)
