@@ -11,7 +11,7 @@ module.exports = {
   },
 
   output: {
-    path: path.resolve(__dirname, 'public'),
+    path: path.resolve(__dirname, './'),
     filename: '[name].js',
   },
 
@@ -64,7 +64,7 @@ module.exports = {
     port: 8080,
     hot: true,
     historyApiFallback: true,
-    contentBase: path.resolve(__dirname, 'public'),
+    contentBase: path.resolve(__dirname, './'),
     proxy: {
       '/send': {
         target: 'http://localhost:3000/send',

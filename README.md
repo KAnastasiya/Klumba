@@ -20,7 +20,7 @@ Online flower shop, based on React + Redux + React Router.
 
 ### Build
 
-- `npm run build` - produces production version (with minification) in catalog `public`.
+- `npm run build` - produces production version (with minification).
 
 
 ### Utils
