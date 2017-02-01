@@ -1,6 +1,7 @@
 import Socials from '../socials/Socials';
 import PageNav from '../page-navigation/PageNav';
 import './page-header.styl';
+import logo from './img/logo.png';
 
 const PageHeader = ({ showModalRequestCall }) => (
   <div className='page-header'>
@@ -11,7 +12,7 @@ const PageHeader = ({ showModalRequestCall }) => (
           className='page-header__logo-link'>
           <img
             className='page-header__logo-img'
-            src='logo.png'
+            src={logo}
             width='125'
             height='92'
             alt='Royal Flowers' />

@@ -2,13 +2,12 @@
   "name": "Klumba",
   "author": "Anastasiia Kozenko",
   "version": "1.0.0",
-  "description": "Интернет-магазин цветов",
+  "description": "Flowers online",
   "main": "index.js",
   "license": "UNLICENSED",
   "scripts": {
-    "serve": "webpack-dev-server --inline --hot",
-    "build": "webpack",
-    "build:prod": "SET NODE_ENV=production&& webpack",
+    "dev": "webpack-dev-server --inline --hot",
+    "build": "SET NODE_ENV=production&& webpack",
     "lint": "eslint src"
   },
   "devDependencies": {
@@ -40,7 +39,7 @@
     "express": "*",
     "nodemailer": "*",
     "nodemailer-smtp-transport": "*",
-    "webpack": "*",
+    "webpack": "1.14",
     "react": "*",
     "react-dom": "*",
     "react-redux": "*",

@@ -29,9 +29,9 @@ app.post('/send', (req, res) => {
   console.log(req.body);
 
   transporter.sendMail({
-    from: `Клумба <${SMTPServer.auth.user}>`,
+    from: `Klumba <${SMTPServer.auth.user}>`,
     to: 'akozenko.work@gmail.com',
-    subject: 'Заявка с сайта',
+    subject: 'Request from site',
     text: req.body.message,
   },
 

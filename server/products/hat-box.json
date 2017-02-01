@@ -73,41 +73,5 @@
             "products/hat-box/square-big-black-box-blue-roses.jpg",
             "products/hat-box/square-big-black-box-black-roses.jpg"
         ]
-    }],
-    "products_2": [{
-        "name": "Jadore Classic",
-        "descr": "Роза голландская",
-        "numbers": "51 шт.",
-        "packing": "коробка",
-        "packingColor": "чёрный/белый",
-        "price": "10 900",
-        "images": [
-            "photo/hat-box_2/32.jpg"
-        ]
-    }, {
-        "name": "Jadore summer mix",
-        "descr": "",
-        "numbers": "",
-        "packing": "коробка",
-        "packingColor": "чёрный/белый",
-        "price": "13 900",
-        "images": [
-            "photo/hat-box_2/24.jpg",
-            "photo/hat-box_2/5.jpg",
-            "photo/hat-box_2/27.jpg"
-        ]
-    }, {
-        "name": "Jadore Love mix",
-        "descr": "",
-        "numbers": "",
-        "packing": "коробка",
-        "packingColor": "чёрный/белый",
-        "price": "13 900",
-        "images": [
-            "photo/hat-box_2/36.jpg",
-            "photo/hat-box_2/31.jpg",
-            "photo/hat-box_2/25.jpg",
-            "photo/hat-box_2/23.jpg"
-        ]
     }]
 }
