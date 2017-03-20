@@ -29,4 +29,4 @@ Online flower shop, based on React + Redux + React Router.
 
 ### Demo
 
-If you want see, how site look like, click [this link] (https://kanastasiya.github.io/Klumba/)
+If you want see, how site look like, click [this link](https://kanastasiya.github.io/Klumba/)
